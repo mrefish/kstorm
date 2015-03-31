@@ -23,7 +23,7 @@ public class WordCountAckedTopology {
   private static final String SENTENCE_SPOUT_ID = "kafka-sentence-spout";
   private static final String SIMPLE_BOLT_ID = "acking-simple-bolt";
   private static final String TOPOLOGY_NAME = "acking-word-count-topology";
-  private static final String TOPIC = "sentences"
+  private static final String TOPIC = "sentences";
 
   public static void main(String[] args) throws Exception {
     int numSpoutExecutors = 1;
